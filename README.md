@@ -16,10 +16,8 @@ If you get this error:
 dlopen(): error loading libfuse.so.2
 
 AppImages require FUSE to run.
-
-Just install the library:
-
 ```
+Just install the library:
 
 ```bash
 sudo apt update

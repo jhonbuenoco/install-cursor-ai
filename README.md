@@ -12,7 +12,7 @@ Notes: you may have to install Fuse
 
 If you get this error:
 
-```markdown
+```bash
 dlopen(): error loading libfuse.so.2
 
 AppImages require FUSE to run.

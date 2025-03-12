@@ -19,6 +19,8 @@ AppImages require FUSE to run.
 
 Just install the library:
 
+```
+
 ```bash
 sudo apt update
 sudo apt install libfuse2

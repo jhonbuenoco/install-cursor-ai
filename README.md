@@ -13,13 +13,13 @@ Notes: you may have to install Fuse
 If you get this error:
 
 ```markdown
-	dlopen(): error loading libfuse.so.2
+dlopen(): error loading libfuse.so.2
 
-	AppImages require FUSE to run.
+AppImages require FUSE to run.
 
 Just install the library:
 
 ```bash
-	sudo apt update
-	sudo apt install libfuse2
-
+sudo apt update
+sudo apt install libfuse2
+```

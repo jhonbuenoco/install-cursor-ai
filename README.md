@@ -1,4 +1,4 @@
-# Install Cursor AI Script
+# Install Cursor AI on Ubuntu
 
 This is a simple script that is going to install Cursor AI on Ubuntu and integrate it to the menu system.
 
@@ -7,4 +7,19 @@ This is a simple script that is going to install Cursor AI on Ubuntu and integra
 - Run it **./install-cursor.sh**
 
 Everything is going to be set automatically.
+
+Notes: you may have to install Fuse
+
+If you get this error:
+
+```markdown
+dlopen(): error loading libfuse.so.2
+
+AppImages require FUSE to run.
+
+Just install the library:
+
+```shell
+sudo apt update
+sudo apt install libfuse2
 

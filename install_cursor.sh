@@ -9,7 +9,7 @@ installCursor() {
         ICON_URL="https://monbu.site/wp-content/uploads/2025/03/cursor.png"
 
         # Paths for installation
-        APPIMAGE_PATH="/opt/cursor.appimage --no-sandbox"
+        APPIMAGE_PATH="/opt/cursor.appimage"
         ICON_PATH="/opt/cursor.png"
         DESKTOP_ENTRY_PATH="/usr/share/applications/cursor.desktop"
 
